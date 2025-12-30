@@ -1,0 +1,35 @@
+# Sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dependencias (si se agregan en el futuro)
+node_modules/
+package-lock.json
+
+# Archivos de build
+dist/
+build/
+
+# Archivos temporales
+*.tmp
+*.temp
+*.log
+
+# Scripts de desarrollo (no necesarios en producción)
+generate_icons.py
+
+# Archivos de configuración local
+.env
+.env.local
